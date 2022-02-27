@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen1.MainPage">
+
+    <Grid BackgroundColor="#63d1b4" RowSpacing="0">
+        <Grid RowDefinitions="10" ColumnDefinitions="4" BackgroundColor="#63d1b4" VerticalOptions="Start" Grid.RowSpan="1">
+            <!-- Header -->
+            <Grid RowDefinitions="6" ColumnDefinitions="6" Grid.Column="1" Grid.Row="1" VerticalOptions="StartAndExpand">
+                <Label FontSize="25" FontAttributes="Bold" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="6">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="🔘 " FontSize="30" />
+                            <Span Text="hi," />
+                            <Span Text=" Deon" TextColor="#ffffff"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Column="7" Grid.Row="1">
+                    🔍
+                </Label>
+                <Button Text="14 Jan" CornerRadius="30" Opacity=".5" BackgroundColor="#ffffff" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"  Rotation="270"></Button>
+                <Button Text="15 Jan" CornerRadius="30" Opacity=".5" BackgroundColor="#ffffff" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Rotation="270"></Button>
+                <Button Text="16 Jan" CornerRadius="30" Opacity="1" BackgroundColor="#ffffff" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" Rotation="270"></Button>
+                <Button Text="17 Jan" CornerRadius="30" Opacity=".5" BackgroundColor="#ffffff" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" Rotation="270"></Button>
+                <Button Text="18 Jan" CornerRadius="30" Opacity=".5" BackgroundColor="#ffffff" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="2" Rotation="270"></Button>
+                <Button Text="19 Jan" CornerRadius="30" Opacity=".5" BackgroundColor="#ffffff" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="2" Rotation="270"></Button>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" Grid.RowSpan="2">
+            <Frame CornerRadius="30" Grid.Row="0">
+                <Grid RowDefinitions="2" ColumnDefinitions="1" VerticalOptions="Start">
+                    <!-- Agenda -->
+                    <Grid RowDefinitions="6" ColumnDefinitions="4" Grid.Row="1" Grid.Column="1">
+                        <Label FontSize="25" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Tue," />
+                                    <Span Text=" 16 Jan" TextColor="#63d1b4"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label FontSize="25" FontAttributes="Bold" HorizontalOptions="End" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="1">
+                            📅
+                        </Label>
+                        <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2">8:00</Label>
+                        <Frame BackgroundColor="#ffe2d4" CornerRadius="10" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="3">
+                            <Label VerticalTextAlignment="Center" FontSize="15" FontAttributes="Bold">Gym Body Work and Yoga</Label>
+                        </Frame>
+                        <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2">9:00</Label>
+                        <Frame BackgroundColor="#ffeed4" CornerRadius="10" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3">
+                            <Label VerticalTextAlignment="Center" FontSize="15" FontAttributes="Bold">Morning Breakfast Time</Label>
+                        </Frame>
+                        <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2">11:00</Label>
+                        <Frame BackgroundColor="#d2fed7" CornerRadius="10" Grid.Column="2" Grid.Row="4" Grid.ColumnSpan="3">
+                            <Label VerticalTextAlignment="Center" FontSize="15" FontAttributes="Bold">Office Meeting with group</Label>
+                        </Frame>
+                        <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="2">13:30</Label>
+                        <Frame BackgroundColor="#d4fff3" CornerRadius="10" Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="3">
+                            <Label VerticalTextAlignment="Center" FontSize="15" FontAttributes="Bold">New App Project Discuesss With Project Group</Label>
+                        </Frame>
+                    </Grid>
+                </Grid>
+            </Frame>
+        </Grid>
+    </Grid>
+
+</ContentPage>
