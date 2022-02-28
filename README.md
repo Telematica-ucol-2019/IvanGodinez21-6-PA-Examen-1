@@ -11,3 +11,5 @@ Realice investigación en caso que lo necesite
 Suba su proyecto a su drive personal y solo me comparte el link de acceso de solo lectura
 Puede consultar cualquier tutorial escrito o audivisual excepto preguntar a otro compañero
 Utilice un "Page" para cada una de las imagenes del diseño
+
+<img src="https://lh3.googleusercontent.com/iQT-gJId16XlSahUGa8l_uDA5Xch1DZhe3EidshXnNel0bSnKOuN3UctEjNnZ85xeKpgHghm9Jn16NQ=w1919-h932" />
