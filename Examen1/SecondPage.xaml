@@ -32,7 +32,7 @@
                 <Label Margin="10,0,0,0" FontSize="25" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="🔘 " FontSize="30" />
+                            <Span Text="👤 " FontSize="30" />
                             <Span Text="hi," />
                             <Span Text=" Deon" TextColor="#ffffff" />
                         </FormattedString>
@@ -77,10 +77,10 @@
                         <Button Text="Lunch Time" FontAttributes="Bold" BackgroundColor="#dbc1e4" CornerRadius="30" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4"></Button>
                         <Button Text="+" FontAttributes="Bold" BackgroundColor="#9ad0c2" TextColor="#ffffff" CornerRadius="100" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="1"></Button>
                         <Label FontSize="15" FontAttributes="Bold" VerticalTextAlignment="Center" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3">Invite People</Label>
-                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2"></Button>
-                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2"></Button>
-                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="2"></Button>
-                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="2"></Button>
+                        <ImageButton Source="https://www.jamsadr.com/images/neutrals/person-donald-900x1080.jpg" BackgroundColor="#e5e5e5" CornerRadius="100" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2"></ImageButton>
+                        <ImageButton Source="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg" BackgroundColor="#e5e5e5" CornerRadius="100" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2"></ImageButton>
+                        <ImageButton Source="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI" BackgroundColor="#e5e5e5" CornerRadius="100" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="2"></ImageButton>
+                        <ImageButton Source="https://www.hueconstruction.co.uk/wp-content/uploads/2016/04/Picture-of-person.png" BackgroundColor="#e5e5e5" CornerRadius="100" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="2"></ImageButton>
                         <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2"></Button>
                         <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2"></Button>
                         <Button Text="➕" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="8" Grid.Column="4" Grid.ColumnSpan="2"></Button>

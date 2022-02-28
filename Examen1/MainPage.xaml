@@ -10,7 +10,7 @@
                 <Label FontSize="25" FontAttributes="Bold" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="6">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="🔘 " FontSize="30" />
+                            <Span Text="👤 " FontSize="30" />
                             <Span Text="hi," />
                             <Span Text=" Deon" TextColor="#ffffff"/>
                         </FormattedString>
