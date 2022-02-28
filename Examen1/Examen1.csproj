@@ -28,4 +28,10 @@
   <ItemGroup>
     <Resource Include="assets\images\calendar.png" />
   </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="SecondPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen1.SecondPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Red" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Grid BackgroundColor="#59b79f" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Label Margin="10,0,0,0" FontSize="25" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="🔘 " FontSize="30" />
+                            <Span Text="hi," />
+                            <Span Text=" Deon" TextColor="#ffffff" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label Margin="0,0,10,0"  FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="End" Grid.Column="3" Grid.Row="1" Grid.RowSpan="2">
+                    🔍
+                </Label>
+            </Grid>
+            <Grid BackgroundColor="#59b79f" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="6">
+                <Frame BackgroundColor="#ffffff" CornerRadius="30">
+                    <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20" />
+                            <RowDefinition Height="80" />
+                            <RowDefinition Height="20" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="0" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="100" />
+                            <RowDefinition Height="80" />
+                            <RowDefinition Height="80" />
+                            <RowDefinition Height="60" />
+                            <RowDefinition Height="60" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <Frame BackgroundColor="#f2f2f2" CornerRadius="10" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="8">
+                            <Label VerticalTextAlignment="Center" TextColor="#dbdbdd" FontSize="25" FontAttributes="Bold">Office meeting</Label>
+                        </Frame>
+                        <Button Text="Meeting" FontAttributes="Bold" BackgroundColor="#c2e3d2" CornerRadius="30" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3"></Button>
+                        <Button Text="Office Meeting" FontAttributes="Bold" BackgroundColor="#c4edc3" CornerRadius="30" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="5"></Button>
+                        <Button Text="Lunch Time" FontAttributes="Bold" BackgroundColor="#dbc1e4" CornerRadius="30" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4"></Button>
+                        <Button Text="+" FontAttributes="Bold" BackgroundColor="#9ad0c2" TextColor="#ffffff" CornerRadius="100" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="1"></Button>
+                        <Label FontSize="15" FontAttributes="Bold" VerticalTextAlignment="Center" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3">Invite People</Label>
+                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2"></Button>
+                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2"></Button>
+                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="2"></Button>
+                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="2"></Button>
+                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2"></Button>
+                        <Button Text="👤" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2"></Button>
+                        <Button Text="➕" FontSize="25" BackgroundColor="#e5e5e5" TextColor="#ffffff" CornerRadius="100" Grid.Row="8" Grid.Column="4" Grid.ColumnSpan="2"></Button>
+                        <Button Text="Save" FontSize="25" BackgroundColor="#63d1b4" TextColor="#111111" CornerRadius="10" Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="8"></Button>
+                    </Grid>
+                </Frame>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
