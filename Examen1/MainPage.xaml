@@ -45,20 +45,26 @@
                         </Label>
                         <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2">8:00</Label>
                         <Frame BackgroundColor="#ffe2d4" CornerRadius="10" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="3">
-                            <Label VerticalTextAlignment="Center" FontSize="15" FontAttributes="Bold">Gym Body Work and Yoga</Label>
+                            <Label VerticalTextAlignment="Center" FontSize="13" FontAttributes="Bold">Gym Body Work and Yoga</Label>
                         </Frame>
                         <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2">9:00</Label>
                         <Frame BackgroundColor="#ffeed4" CornerRadius="10" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3">
-                            <Label VerticalTextAlignment="Center" FontSize="15" FontAttributes="Bold">Morning Breakfast Time</Label>
+                            <Label VerticalTextAlignment="Center" FontSize="13" FontAttributes="Bold">Morning Breakfast Time</Label>
                         </Frame>
                         <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2">11:00</Label>
                         <Frame BackgroundColor="#d2fed7" CornerRadius="10" Grid.Column="2" Grid.Row="4" Grid.ColumnSpan="3">
-                            <Label VerticalTextAlignment="Center" FontSize="15" FontAttributes="Bold">Office Meeting with group</Label>
+                            <Label VerticalTextAlignment="Center" FontSize="13" FontAttributes="Bold">Office Meeting with group</Label>
                         </Frame>
                         <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="2">13:30</Label>
                         <Frame BackgroundColor="#d4fff3" CornerRadius="10" Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="3">
-                            <Label VerticalTextAlignment="Center" FontSize="15" FontAttributes="Bold">New App Project Discuesss With Project Group</Label>
+                            <Label VerticalTextAlignment="Center" FontSize="13" FontAttributes="Bold">New App Project Discuesss With Project Group</Label>
                         </Frame>
+                        <Label FontSize="15" FontAttributes="Bold" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2">16:30</Label>
+                        <Frame BackgroundColor="#e6e8fd" CornerRadius="10" Grid.Column="2" Grid.Row="6" Grid.ColumnSpan="3">
+                            <Label VerticalTextAlignment="Center" FontSize="13" FontAttributes="Bold">Another event</Label>
+                        </Frame>
+                        <Button Text="➕" FontSize="25" BackgroundColor="#60cfaf" CornerRadius="60" Grid.Column="4" Grid.Row="6" Grid.ColumnSpan="1">
+                        </Button>
                     </Grid>
                 </Grid>
             </Frame>

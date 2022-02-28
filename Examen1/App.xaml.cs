@@ -10,7 +10,7 @@ namespace Examen1
         {
             InitializeComponent();
 
-            MainPage = new SecondPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
